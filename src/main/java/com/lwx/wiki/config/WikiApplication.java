@@ -10,7 +10,7 @@ import org.springframework.core.env.Environment;
 
 @ComponentScan("com.lwx")//可以支持多个包加{}然后逗号分隔
 @SpringBootApplication
-@MapperScan("com.lx.dem.mapper")
+@MapperScan("com.lwx.wiki.mapper")
 public class WikiApplication {
     private static final Logger LOG = LoggerFactory.getLogger(WikiApplication.class);
     public static void main(String[] args) {
