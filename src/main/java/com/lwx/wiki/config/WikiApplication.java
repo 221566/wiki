@@ -1,4 +1,4 @@
-package com.lwx.wiki;
+package com.lwx.wiki.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
+@ComponentScan("com.lwx")//可以支持多个包加{}然后逗号分隔
 @SpringBootApplication
 @MapperScan("com.lx.dem.mapper")
 public class WikiApplication {
