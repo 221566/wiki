@@ -1,4 +1,4 @@
-POST http://localhost:8080/ebook/list
+POST http://localhost:8080/ebook/list?name=Spring
 
 ###
 
